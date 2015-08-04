@@ -5,4 +5,4 @@ WORKDIR /usr/src/app
 ENTRYPOINT ["/usr/local/bin/ember"]
 CMD ["help"]
 
-RUN npm install -g ember-cli@0.2.7 bower
+RUN npm install -g ember-cli@1.13.7 bower
